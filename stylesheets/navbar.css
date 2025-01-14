@@ -1,0 +1,80 @@
+.frame-navbar{
+  /* margin-top: 15px; */
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 10px;
+  gap: 10px;
+  flex-shrink: 0;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+/* .group-navbar{
+  width: 1312px;
+  height: 64px;
+  flex-shrink: 0;
+} */
+
+.line-navbar{
+  width: 1312px;
+  height: 0.938px;
+
+  background: #000;
+}
+
+.logo-navbar{
+  display: flex;
+  width: 38px;
+  height: 38px;
+  padding: 1.354px 1.639px 2.131px 1.372px;
+
+  align-items: center;
+  flex-shrink: 0;
+  :hover{
+    zoom: 101%;
+    transition: 0.5s;
+  }
+}
+
+.row-navbar{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 10px;
+  button{
+    padding: 1rem;
+    border-radius: 20px;
+    font-size: large;
+  }
+
+}
+
+.list-navbar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 25px;
+  li{
+    font-weight: 800;
+    font-size: 1.5rem;
+  }
+}
+
+.navbar-row-items{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 25px;
+}
+
+.dropdown-menu{
+  width: 35.475px;
+  height: 22.336px;
+  flex-shrink: 0;
+}

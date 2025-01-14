@@ -1,0 +1,16 @@
+@import url(style.css);
+@import url(font-styles.css);
+@import url(navbar.css);
+
+/* The landing page / index */
+@import url(landing-page.css);
+
+/* The 3 main pages : Apps, photos, books */
+@import url(applications-page.css);
+@import url(photos-page.css);
+@import url(books-page.css);
+
+/* The pages for photos sections */
+
+
+/* The pages for books sections */

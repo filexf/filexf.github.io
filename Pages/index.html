@@ -3,7 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="index.css">
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/icons/Logo-website-icon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/icons/Logo-website-icon.svg">
+  <link rel="icon" type="image/x-icon" href="/icons/Logo-website-icon.svg">
+
+  <link rel="stylesheet" href="/stylesheets/index.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,17 +17,34 @@
 </head>
 <body>
 
-  <nav class="navbar">
-    <div class="logo">MyLogo</div>
-    <ul class="nav-links">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-    <button class="hamburger">
-      ☰
-    </button>
+  <!-- The navbar -->
+  <nav class="frame-navbar">
+
+    <div class="group-navbar">
+      <div class="row-navbar">
+        <div class="navbar-row-items">
+
+          <div class="logo-navbar">
+            <a href="index.html"><img src="/icons/Logo-website-icon.svg" alt="Logo website"></a>
+          </div>
+          <ul class="list-navbar">
+            <li><a href="index.html" class="body-font">Home</a></li>
+            <li><a href="Applications.html" class="body-font">Applications</a></li>
+            <li><a href="Photos.html" class="body-font">Photos</a></li>
+            <li><a href="Books.html" class="body-font">Books</a></li>
+          </ul>
+        </div>
+
+        <div class="hamburger">
+          <img src="/icons/Dropdown-menu.svg" class="" alt="Dropdown-menu">
+        </div>
+      </div>
+
+      <div class="line-navbar">
+        <!-- The line of the navbar -->
+      </div>
+    </div>
+
   </nav>
 
 
@@ -55,7 +77,7 @@
     <div class="frame-photos-icons">
 
       <div class="hovering-photo-landing-page">
-        <img src="images/Photo test sunset HK landing page.jpg" alt="Photo paysage" style="border-radius: 30px;">
+        <img src="/images/Photo test sunset HK landing page.jpg" alt="Photo paysage" style="border-radius: 30px;">
       </div>
 
       <div class="frame-photo-and-icons">
@@ -63,25 +85,25 @@
         <div class="frame-icons-landing-page">
           <a href="#latest-works">
             <div class="icon-landing-page">
-              <img src="icons/Photo camera.svg" alt="Camera icon">
+              <img src="/icons/Photo camera.svg" alt="Camera icon">
             </div>
           </a>
 
           <a href="#latest-works">
             <div class="icon-landing-page">
-              <img src="icons/Developer icon .svg" alt="Developer icon">
+              <img src="/icons/Developer icon .svg" alt="Developer icon">
             </div>
           </a>
         </div>
 
         <div class="photo-with-icons">
-          <img src="images/Photo HK landing page.png" alt="Photo paysage" style="border-radius: 30px;">
+          <img src="/images/Photo HK landing page.png" alt="Photo paysage" style="border-radius: 30px;">
         </div>
       </div>
 
 
       <div class="hovering-photo-landing-page">
-        <img src="images/Civilisation Mag couverture 2.png" alt="Photo paysage" style="border-radius: 30px;">
+        <img src="/images/Civilisation Mag couverture 2.png" alt="Photo paysage" style="border-radius: 30px;">
       </div>
 
     </div>
@@ -95,21 +117,21 @@
     <div class="frame-cards-latest-works">
 
       <div class="card-latest-works">
-        <img class="icon-latest-works" src="icons/Web-development-icon.svg" alt="Web development icon">
+        <img class="icon-latest-works" src="/icons/Web-development-icon.svg" alt="Web development icon">
         <p class="title-card-latest-works">Web development</p>
         <p class="font-card-latest-works">Web development is the perfect blend of creativity and logic, which deeply resonates with my passion for art and storytelling. Coming from a photography background, I bring a unique perspective to creating user-centric applications that are as visually compelling as they are functional. Working with me means bringing creativity and precision together to achieve meaningful results.</p>
         <button class="btn-card-latest-works">See more</button>
       </div>
 
       <div class="card-latest-works">
-        <img class="icon-latest-works" src="icons/Photography-icon.svg" alt="Web development icon">
+        <img class="icon-latest-works" src="/icons/Photography-icon.svg" alt="Web development icon">
         <p class="title-card-latest-works">Photography</p>
         <p class="font-card-latest-works">When I discovered photography a few years ago, it was as if I had found the perfect medium to bridge my passions. Suddenly, I could freeze a moment in time, capturing not just the visual elements but also the mood, the story, and the essence of what made that moment extraordinary. Photography opened up an entirely new way of seeing the world—a lens through which every shadow, color, and frame held potential.</p>
         <button class="btn-card-latest-works">See more</button>
       </div>
 
       <div class="card-latest-works">
-        <img class="icon-latest-works" src="icons/Designs-icon.svg" alt="Web development icon">
+        <img class="icon-latest-works" src="/icons/Designs-icon.svg" alt="Web development icon">
         <p class="title-card-latest-works">Designs</p>
         <p class="font-card-latest-works">During my time as a photographer I had the opportunity to make 2 books depicting 5 months of adventure  through south east Asia. I wrote the story, used my own photos and edited all by myself, they got sold by more than 500 copies. During these months of crafting I gained a lot of knowledge about how to stay consistent in designing and mainly how to tackle a huge project like this one.</p>
         <button class="btn-card-latest-works">
@@ -127,7 +149,7 @@
 
       <div class="frames-layouts-landing-page" >
         <div class="frames-layouts-landing-page-logo">
-          <img class="logo-layouts-landing-page" src="icons/Web-development-icon.svg" alt="Web development icon">
+          <img class="logo-layouts-landing-page" src="/icons/Web-development-icon.svg" alt="Web development icon">
         </div>
         <div class="frames-layouts-landing-page-content">
           <h2 class="header-layouts-landing-page">
@@ -139,28 +161,14 @@
           <div class="img-web-dev" alt="Photos web dev project">
             <!-- 🔴 The photo is there right now but need to tweak it to make it good! 🔴-->
           </div>
-          <div class="tech-stack">
-            <p>Tech stack used</p>
 
-            <div class="frame-icons-tech-stack">
-              <img src="icons/Tech stack icons/Rails-icon.svg" alt="" class="layout-icons-tech-stack">
-              <img src="icons/Tech stack icons/Ruby-icons.svg" alt="" class="layout-icons-tech-stack">
-              <img src="icons/Tech stack icons/Postgresql-icon.svg" alt="" class="layout-icons-tech-stack">
-              <img src="icons/Tech stack icons/Javascript-icon.svg" alt="" class="layout-icons-tech-stack">
-              <img src="icons/Tech stack icons/Figma-icon.svg" alt="" class="layout-icons-tech-stack">
-              <img src="icons/Tech stack icons/Git-icon.svg" alt="" class="layout-icons-tech-stack">
-              <img src="icons/Tech stack icons/Github-icon.svg" alt="" class="layout-icons-tech-stack">
-              <img src="icons/Tech stack icons/HTML-icon.svg" alt="" class="layout-icons-tech-stack">
-              <img src="icons/Tech stack icons/CSS-icon.svg" alt="" class="layout-icons-tech-stack">
-              <img src="icons/Tech stack icons/Bootstrap-icon.svg" alt="" class="layout-icons-tech-stack">
-            </div>
-          </div>
+          <!-- This part was for the tech stack -->
         </div>
       </div>
 
       <div class="see-more">
         <p>See more</p>
-        <img src="icons/Vector-arrow.svg" alt="">
+        <img src="/icons/Vector-arrow.svg" alt="">
       </div>
     </div>
 
@@ -168,7 +176,7 @@
     <div class="frames-layouts-landing-page-with-see-more">
       <div class="frames-layouts-landing-page">
         <div class="frames-layouts-landing-page-logo">
-          <img class="logo-layouts-landing-page" src="icons/Photography-icon.svg" alt="Photography icon">
+          <img class="logo-layouts-landing-page" src="/icons/Photography-icon.svg" alt="Photography icon">
         </div>
         <div class="frames-layouts-landing-page-content">
           <h2 class="header-layouts-landing-page">
@@ -178,16 +186,16 @@
             Since I was little, I’ve always been fascinated by art and adventure. I wanted to fulfill this deep need for adventure and be able to tell those stories in my own way. So, when I discovered photography a few years ago, an entirely new world opened up to me.
           </p>
           <div class="img-list">
-            <img class="img1" src="images/Tests photos USA-147.jpg" alt="">
-            <img class="img2" src="images/Félix Orain 60x90 Dibond-14.jpg" alt="">
-            <img class="img1" src="images/Photos HK chill-29.jpg" alt="">
-            <img class="img2" src="images/Photos HK chill-132.jpg" alt="">
+            <img class="img1" src="/images/Tests photos USA-147.jpg" alt="">
+            <img class="img2" src="/images/Félix Orain 60x90 Dibond-14.jpg" alt="">
+            <img class="img1" src="/images/Photos HK chill-29.jpg" alt="">
+            <img class="img2" src="/images/Photos HK chill-132.jpg" alt="">
           </div>
         </div>
       </div>
       <div class="see-more">
         <p>See more</p>
-        <img src="icons/Vector-arrow.svg" alt="">
+        <img src="/icons/Vector-arrow.svg" alt="">
       </div>
     </div>
 
@@ -195,7 +203,7 @@
     <div class="frames-layouts-landing-page-with-see-more">
       <div class="frames-layouts-landing-page">
         <div class="frames-layouts-landing-page-logo">
-          <img class="logo-layouts-landing-page" src="icons/Designs-icon.svg" alt="Designs-icon">
+          <img class="logo-layouts-landing-page" src="/icons/Designs-icon.svg" alt="Designs-icon">
         </div>
         <div class="frames-layouts-landing-page-content">
           <h2 class="header-layouts-landing-page">
@@ -206,28 +214,28 @@
             During these months of crafting I gained a lot of knowledge about how to stay consistent in designing and mainly how to tackle a huge project like this one.
           </p>
           <div class="frame-magazines-cover">
-            <img src="images/Couvertures magazines/Civilisation Mag.jpg" alt="">
-            <img src="images/Couvertures magazines/WIZZY En Asie BONNE VERSION.jpg" alt="">
+            <img src="/images/Couvertures magazines/Civilisation Mag.jpg" alt="">
+            <img src="/images/Couvertures magazines/WIZZY En Asie BONNE VERSION.jpg" alt="">
           </div>
         </div>
       </div>
       <div class="see-more">
         <p>See more</p>
-        <img src="icons/Vector-arrow.svg" alt="">
+        <img src="/icons/Vector-arrow.svg" alt="">
       </div>
     </div>
 
     <!-- The 6th frame : the about part -->
     <div class="frames-layouts-landing-page">
       <div class="frames-layouts-landing-page-logo">
-        <img class="logo-layouts-landing-page" src="icons/About-icon.svg" alt="Designs-icon">
+        <img class="logo-layouts-landing-page" src="/icons/About-icon.svg" alt="About-me-icon">
       </div>
       <div class="frames-layouts-landing-page-content">
         <h2 class="header-layouts-landing-page">
-          About
+          About me
         </h2>
         <div class="frame-about-photo-and-text">
-          <img class="img-frame" src="images/photo profil-V2.png" alt="">
+          <img class="img-frame" src="/images/photo profil-V2.png" alt="">
           <p class="body-font">
             I am a recent graduate from Le Wagon, where I gained hands-on experience in web development and built web applications from scratch. This journey not only enhanced my technical skills but also gave me the confidence to tackle real-world challenges in the tech industry.
             Coming from a photography background, I have always been passionate about visual storytelling and creativity. With my newfound knowledge in programming and my foundations in graphic design, I am excited to merge these skills to create user-centric, visually engaging digital products. I now have the tools and determination to carve out a space for myself in the dynamic world of tech, and I look forward to contributing to innovative projects that make a difference.
@@ -240,7 +248,7 @@
     <!-- The 7th frame : contact form -->
     <div class="frames-layouts-landing-page">
       <div class="frames-layouts-landing-page-logo">
-        <img class="logo-layouts-landing-page" src="icons/Contact-icon.svg" alt="Designs-icon">
+        <img class="logo-layouts-landing-page" src="/icons/Contact-icon.svg" alt="Contact-icon">
       </div>
 
       <div class="frames-layouts-landing-page-content">
@@ -268,6 +276,7 @@
     </div>
 
   </div>
+  <script src="script.js"></script>
 
 </body>
 </html>
