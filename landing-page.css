@@ -1,0 +1,474 @@
+/* Main 1st frame  */
+
+.frame-landingpage{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+/* Frame title, text and buttons */
+
+.frame-title-text{
+  display: flex;
+  padding-left: 20px;
+  align-items: flex-start;
+  gap: 238.811px;
+  align-self: stretch;
+}
+
+/* 1st frame on the left */
+
+.name-profession{
+  display: flex;
+  width: 536px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 22px;
+}
+
+
+.profession{
+  align-self: stretch;
+  color: #000;
+  font-family: Raleway;
+  font-size: 38.99px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+
+
+/* Frame on the right */
+
+.intro-text{
+  display: flex;
+  width: 537.082px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 31.192px;
+}
+
+.text{
+  height: 119.803px;
+  align-self: stretch;
+  color: #000;
+  font-family: Raleway;
+  font-size: 32.489px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.list-buttons{
+  display: flex;
+  width: 519px;
+  justify-content: center;
+  align-items: center;
+  gap: 55px;
+}
+
+.button {
+  display: flex;
+  width: 138.471px;
+  height: 46.157px;
+  justify-content: center;
+  align-items: center;
+  gap: 3.663px;
+  flex-shrink: 0;
+
+  border-radius: 18.316px;
+  border: 2.198px solid #000;
+  background: #07080A;
+  box-shadow: 0px 2.84px 2.84px 0px rgba(0, 0, 0, 0.25);
+  p{
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 22.211px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+}
+
+/* 2nd frame of the main frame */
+
+.frame-photos-icons{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* The hovering landscape photos */
+.hovering-photo-landing-page{
+  display: flex;
+  width: 1312px;
+  height: 135px;
+  padding-right: 0.065px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.frame-photo-and-icons{
+  display: flex;
+  width: 1312px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* Frame for the 2 icons */
+.frame-icons-landing-page{
+  display: flex;
+  width: 265px;
+  padding: 0px 13.473px;
+  justify-content: center;
+  align-items: center;
+  gap: 20.012px;
+  flex-shrink: 0;
+}
+
+
+.icon-landing-page{
+  display: flex;
+  padding: 14.525px;
+  /* align-items: center; */
+  gap: 4.484px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 5.381px solid #000;
+  background: rgba(217, 217, 217, 0.00);
+}
+
+/* The photo with icons on the left */
+.photo-with-icons{
+  display: flex;
+  width: 1047px;
+  height: 130px;
+  padding-right: 0.052px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+/* The 2nd frame my latest works */
+
+.frame-my-latest-works{
+  margin-top: 3rem;
+  display: flex;
+  width: 1320px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+
+.header-landing-page{
+  align-self: stretch;
+  color: #000;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.font-text-latest-works{
+  width: 1094px;
+  height: 96px;
+  color: #000;
+  font-family: Raleway;
+  font-size: 24.498px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.frame-cards-latest-works{
+  display: flex;
+  height: 575px;
+  align-items: center;
+  gap: 128px;
+}
+
+.card-latest-works{
+  display: flex;
+  width: 332.362px;
+  padding: 31.44px 55.394px;
+  flex-direction: column;
+  align-items: center;
+  gap: 31.44px;
+
+  border-radius: 37.428px;
+  border: 3.92px solid #000;
+  background: #FFF;
+  box-shadow: 0px 2.994px 2.994px 0px rgba(0, 0, 0, 0.25);
+}
+
+.icon-latest-works{
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+}
+
+.title-card-latest-works{
+  color: #000;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.font-card-latest-works{
+  width: 248.04px;
+  height: 301.629px;
+  flex-shrink: 0;
+
+  overflow: hidden;
+  color: #000;
+  text-overflow: ellipsis;
+  /* Font card landing page */
+  font-family: Raleway;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.btn-card-latest-works{
+  display: flex;
+  width: 177.609px;
+  height: 45.994px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 9.187px;
+  flex-shrink: 0;
+
+  border-radius: 18.252px;
+  border: 2.19px solid #000;
+  background: #FFF;
+  box-shadow: 0px 2.83px 2.83px 0px rgba(0, 0, 0, 0.25);
+  color: #000;
+  font-family: Raleway;
+  font-size: 22.133px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+/* The frames for all the sections : web, photos, designs, about, contact */
+
+.layout-all-frames{
+  margin-top: 5rem;
+  display: flex;
+  width: 1312px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 80px;
+}
+
+/* The third frame : web development */
+
+.frames-layouts-landing-page-with-see-more{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+  align-self: stretch;
+}
+
+.frames-layouts-landing-page{
+  display: flex;
+  align-items: flex-start;
+  gap: 35px;
+  align-self: stretch;
+}
+
+.frames-layouts-landing-page-logo{
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.logo-layouts-landing-page{
+  width: 71px;
+  height: 71px;
+}
+
+.frames-layouts-landing-page-content{
+  display: flex;
+  width: 1159px;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+
+.header-layouts-landing-page{
+  align-self: stretch;
+  color: #000;
+  font-family: Raleway;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.img-web-dev{
+  display: flex;
+  width: 900.294px;
+  height: 476.15px;
+  padding: 198.396px 408.128px;
+  justify-content: center;
+  align-items: center;
+  gap: 11.337px;
+  flex-shrink: 0;
+
+  border-radius: 56.684px;
+  border: 5.668px solid #000;
+  background: url(images/Sportify\ auto\ switch.jpg) lightgray 50% / cover no-repeat;
+  box-shadow: 0px 4.535px 4.535px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* The tech stack icons part */
+
+.tech-stack{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1159px;
+  flex-direction: column;
+  gap: 48px;
+
+  p{
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+}
+
+.frame-icons-tech-stack{
+  display: flex;
+  width: 733.02px;
+  justify-content: center;
+  align-items: center;
+
+  gap: 57.023px;
+  flex-wrap: wrap;
+}
+
+.layout-icons-tech-stack{
+  width: 97px;
+  height: 97px;
+  flex-shrink: 0;
+}
+
+/* The see more section */
+
+.see-more{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  p{
+    color: #000;
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .vector-arrow{
+    width: 13.616px;
+    height: 24.757px;
+  }
+}
+
+/* -------------------------------- */
+
+.img-list{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  width: 1087px;
+  height: 408px;
+  flex-shrink: 0;
+  img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .img1{
+    padding-bottom: 3rem;
+  }
+  .img2{
+    padding-top: 3rem;
+  }
+}
+
+.frame-magazines-cover{
+  display: flex;
+  align-items: center;
+  gap: 108px;
+  img{
+    display: flex;
+    width: 491.719px;
+    height: 695.456px;
+    padding-right: 0.399px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.frame-about-photo-and-text{
+  display: flex;
+  align-items: center;
+  gap: 149.721px;
+  img{
+    height: 409.915px;
+    border-radius: 29.695px;
+    background: url(images/photo\ profil-V2.png) lightgray -62.942px -83.219px / 148.74% 134.333% no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+}
+
+.frame-contact-form{
+  display: flex;
+
+  width: 1081px;
+  justify-content: flex-start;
+  align-content: center;
+  gap: 54px 89px;
+  flex-wrap: wrap;
+
+  button{
+    display: flex;
+    height: 53.578px;
+    padding: 20.083px ;
+    justify-content: center;
+    align-items: center;
+    gap: 14.952px;
+    flex-shrink: 0;
+
+    border-radius: 29.706px;
+    border: 3.565px solid #000;
+    background: #FFF;
+    box-shadow: 0px 4.607px 4.607px 0px rgba(0, 0, 0, 0.25);
+
+    font-size: large;
+    font-weight: 600;
+  }
+}

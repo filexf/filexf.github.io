@@ -1,0 +1,16 @@
+/* Whole body */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  width: 1512px;
+  height: 6989px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
