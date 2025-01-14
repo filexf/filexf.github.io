@@ -112,6 +112,13 @@
   justify-content: center;
   align-items: center;
   border-radius: 30px;
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 49%;
+  }
+
 }
 
 .frame-photo-and-icons{
@@ -154,6 +161,8 @@
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
+  border-radius: 30px;
+
 }
 
 /* The 2nd frame my latest works */
@@ -335,11 +344,10 @@
 
   border-radius: 56.684px;
   border: 5.668px solid #000;
-  background: url(/images/Sportify\ auto\ switch.jpg) lightgray 50% / cover no-repeat;
   box-shadow: 0px 4.535px 4.535px 0px rgba(0, 0, 0, 0.25);
 }
 
-/* The tech stack icons part */
+/* The tech stack icons part ??? */
 
 
 
@@ -375,6 +383,7 @@
   height: 408px;
   flex-shrink: 0;
   img{
+    overflow:hidden;
 
     width: 100%;
     height: 100%;
@@ -392,6 +401,7 @@
   display: flex;
   align-items: center;
   gap: 108px;
+  overflow: hidden;
   img{
     display: flex;
     width: 491.719px;

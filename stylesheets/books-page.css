@@ -6,3 +6,38 @@
   align-items: center;
   gap: 60px;
 }
+
+.frame-magazine-and-text{
+  display: flex;
+  height: 630px;
+  align-items: center;
+  gap: 64px;
+  align-self: stretch;
+  h2{
+    color: #000;
+    text-align: center;
+
+    /* Subheaders */
+    font-family: Raleway;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+}
+
+.magazine-dimensions{
+  img{
+    width: 438.662px;
+    height: 629.786px;
+  }
+}
+
+.frame-texts-magazine{
+  display: flex;
+  height: 630px;
+  flex-direction: column;
+  align-items: center;
+  gap: 72px;
+  flex: 1 0 0;
+}

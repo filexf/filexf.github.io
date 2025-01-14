@@ -11,8 +11,8 @@
 }
 
 body {
-  width: 1512px;
-  /* height: 6989px; */
+  width: 1550px;
+  min-height: 100vh;
   margin-bottom: 100px;
   display: flex;
   flex-direction: column;
@@ -21,4 +21,15 @@ body {
 
 html{
   scroll-behavior: smooth;
+}
+
+.zoom-effect-photos{
+  overflow: hidden;
+  img{
+    transition: all 0.3s;
+  }
+  img:hover{
+    transform: scale(1.05);
+
+  }
 }
