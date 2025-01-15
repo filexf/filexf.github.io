@@ -63,6 +63,11 @@
   li{
     font-weight: 800;
     font-size: 1.5rem;
+    transition: all 0.5s;
+  }
+  li :hover{
+    color: rgb(105, 105, 105);
+    /* text-decoration: underline; */
   }
 }
 

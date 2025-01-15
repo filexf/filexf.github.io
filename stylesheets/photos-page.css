@@ -1,1 +1,8 @@
-
+.frame-header-photos-page {
+  margin-top: 30px;
+  display: flex;
+  width: 1267px;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
