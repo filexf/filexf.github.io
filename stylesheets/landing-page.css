@@ -427,28 +427,52 @@
 
 .frame-contact-form{
   display: flex;
-
-  width: 1081px;
+  flex-direction: column;
+  width: 100%;
   justify-content: flex-start;
-  align-content: center;
+
   gap: 54px 89px;
   flex-wrap: wrap;
 
   button{
+    margin-top: 15px;
     display: flex;
-    height: 53.578px;
-    padding: 20.083px ;
+    width: 150px;
+    height: 45.578px;
+    padding: 2px 22px ;
     justify-content: center;
     align-items: center;
     gap: 14.952px;
     flex-shrink: 0;
 
-    border-radius: 29.706px;
-    border: 3.565px solid #000;
+    border-radius: 20px;
+    border: 2px solid #000;
     background: #FFF;
     box-shadow: 0px 4.607px 4.607px 0px rgba(0, 0, 0, 0.25);
 
     font-size: large;
     font-weight: 600;
   }
+
+  form{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 60%;
+  }
+}
+
+
+
+
+.inputs-style{
+  /* text-align: center; */
+  padding: 8px;
+  border-radius: 15px;
+  border: 1.565px solid #000;
+  background: #FFF;
+  /* box-shadow: 0px 4.607px 4.607px 0px rgba(0, 0, 0, 0.25); */
+  font-size: 20px;
+
 }

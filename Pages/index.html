@@ -286,16 +286,20 @@
         <div class="frame-contact-form">
           <p class="body-font"> Feel free to contact me for any project at : felix.orain@gmail.com</p>
           <form action="#" method="post">
-            <label for="name">Nom :</label>
-            <input type="text" id="name" name="name" placeholder="Votre nom" required>
+            <div class="frame-inputs">
 
-            <label for="email">Email :</label>
-            <input type="email" id="email" name="email" placeholder="Votre email" required>
+              <label for="name"></label>
+              <input class="inputs-style" type="text" id="name" name="name" placeholder="Your name" required>
 
-            <label for="message">Message :</label>
-            <textarea id="message" name="message" rows="5" placeholder="Votre message" required></textarea>
+              <label for="email"></label>
+              <input class="inputs-style" type="email" id="email" name="email" placeholder="Your email" required>
 
-            <button type="submit">Send </button>
+            </div>
+
+            <label for="message"></label>
+            <textarea  class="inputs-style" id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+            <button type="submit">Send > </button>
           </form>
         </div>
       </div>
