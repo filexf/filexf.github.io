@@ -11,9 +11,9 @@
 }
 
 body {
-  width: 1550px;
+  min-width: 100vh;
   min-height: 100vh;
-  margin-bottom: 100px;
+  margin-bottom: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,6 +23,8 @@ html{
   scroll-behavior: smooth;
 }
 
+
+/* Used on the landing photos from the landing page */
 .zoom-effect-photos{
   overflow: hidden;
   img{
@@ -33,3 +35,5 @@ html{
 
   }
 }
+
+/* ----------------------- */

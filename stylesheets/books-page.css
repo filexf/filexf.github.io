@@ -26,12 +26,12 @@
   }
 }
 
-.magazine-dimensions{
+/* .magazine-dimensions{
   img{
     width: 438.662px;
     height: 629.786px;
   }
-}
+} */
 
 .frame-texts-magazine{
   display: flex;
@@ -40,4 +40,16 @@
   align-items: center;
   gap: 72px;
   flex: 1 0 0;
+}
+
+/* Reused the effect from the photos page CSS and changed the ratio of the magazines */
+.container-photo{
+  overflow: hidden;
+  position:relative;
+  .main-photo-magazine{
+    width: 438.662px;
+    height: 629.786px;
+    object-fit: cover;
+    transition: all 0.3s;
+  }
 }
