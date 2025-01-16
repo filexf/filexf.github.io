@@ -16,10 +16,13 @@
 
 .frame-application{
   display: flex;
+  position: relative;
   width: 1000.419px;
   height: 446.755px;
+  object-fit: cover;
   /* padding: 227.815px 468.647px; */
   justify-content: center;
+  overflow: hidden;
   align-items: center;
   gap: 13.018px;
   flex-shrink: 0;
@@ -28,6 +31,78 @@
   border: 6.509px solid #000;
   box-shadow: 0px 5.207px 5.207px 0px rgba(0, 0, 0, 0.25);
 }
+
+.center-title-application{
+  position:absolute;
+  inset:0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container-photo-app{
+  overflow: hidden;
+  position:relative;
+  .main-photo{
+    /* height: 730.218px;
+    width: 422.358px; */
+    object-fit: cover;
+    transition: all 0.3s;
+  }
+}
+
+.frame-hovered-content-application{
+
+  position: absolute;
+  inset:0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  color: white;
+  background: rgba(23, 23, 23, 0.926);
+  gap: 20px;
+  border-radius: 65.09px;
+}
+
+.font-hovered{
+  color: white;
+  padding: 1.5rem;
+  font-size: 20px;
+}
+
+.container-photo-app > img,
+.container-photo-app > .frame-hovered-content-application {
+  transition: 200ms ease-in-out;
+}
+
+.container-photo-app:hover > img {
+  transform: scale(1.00);
+}
+
+.container-photo-app > .frame-hovered-content-application {
+  opacity: 0;
+}
+
+.container-photo-app:hover > .frame-hovered-content-application {
+  opacity: 1;
+}
+
+.icons-projects{
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+/* This section is about the tech stack I used */
 
 .tech-stack{
   display: flex;
@@ -63,3 +138,5 @@
   height: 97px;
   flex-shrink: 0;
 }
+
+/* -------------------------------------- */
