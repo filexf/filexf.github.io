@@ -39,8 +39,6 @@
   line-height: normal;
 }
 
-
-
 /* Frame on the right */
 
 .intro-text{
@@ -252,6 +250,21 @@
   line-height: normal;
 }
 
+#black-card{
+  box-shadow: 0px 2.83px 2.83px 0px rgba(255, 255, 255, 0.337);
+  background: #1f1f25;
+  color: white;
+  p{
+    color: white;
+  }
+  button{
+    border: solid white 2.19px;
+    background : #1f1f25;
+    color: white;
+    box-shadow: 0px 2.83px 2.83px 0px rgba(159, 159, 159, 0.337);
+  }
+}
+
 .btn-card-latest-works{
   display: flex;
   width: 177.609px;
@@ -272,14 +285,9 @@
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+
 }
-button :hover{
-  background-color: yellow;
-}
-/* button :hover{
-  color:white;
-  background-color: #000;
-} */
+
 
 /* The frames for all the sections : web, photos, designs, about, contact */
 
@@ -317,7 +325,7 @@ button :hover{
 
 .logo-layouts-landing-page{
   margin-top: 5px;
-  width: 61px;
+  width: 58px;
   height: 61px;
 }
 
@@ -360,6 +368,7 @@ button :hover{
 
 /* ------------------------ */
 
+
 /* The see more section */
 
 .see-more{
@@ -378,6 +387,11 @@ button :hover{
     width: 13.616px;
     height: 24.757px;
   }
+}
+
+.see-more:hover{
+  transition: 300ms ease-in-out;
+  transform: scale(1.05);
 }
 
 /* -------------------------------- */
