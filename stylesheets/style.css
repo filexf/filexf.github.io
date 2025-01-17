@@ -23,6 +23,9 @@ html{
   scroll-behavior: smooth;
 }
 
+button{
+  cursor: pointer;
+}
 
 /* Used on the landing photos from the landing page */
 .zoom-effect-photos{
