@@ -10,6 +10,8 @@
   font-family: Raleway;
 }
 
+
+
 body {
   min-width: 100vh;
   min-height: 100vh;
@@ -20,6 +22,11 @@ body {
 }
 
 html{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  /* min-width: none; */
   scroll-behavior: smooth;
 }
 

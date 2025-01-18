@@ -51,7 +51,7 @@
   .photo-landing-page{
     display: flex;
     justify-content: center;
-    width: 1600px;
+    width: 100%;
     position: relative;
   }
   .frame-title-text{
@@ -60,13 +60,19 @@
     margin-left: 140px;
     margin-top: 30px;
   }
+}
+
+.frame-landingpage{
+  position: relative;
+
 
   .vector-arrow{
     position: absolute;
+    z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    bottom: 45px;
+    bottom: 13%;
     color: #FFF;
   }
 }
@@ -234,6 +240,7 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 80px;
+  padding: 0 20px;
 }
 
 /* The third frame : web development */
@@ -304,6 +311,7 @@
   width: 1024px;
   height: 500px;
   gap: 30px;
+
   .image-animated{
     position: absolute;
     display: flex;
@@ -317,19 +325,7 @@
     /* z-index: 1; */
     position: absolute;
   }
-
-  .sportify-animation{
-    opacity: 1;
-
-  }
-
-  .tymouet-animation{
-    /* display: none; */
-    /* transition: animation 10s ease-in-out infinite; */
-  }
-
 }
-
 
 .tymouet-animation{
   animation: fadeIn 4s ease-in-out infinite alternate;
@@ -338,13 +334,6 @@
 @keyframes fadeIn {
   from { opacity: 0; }
 }
-
-/* The tech stack icons part ??? */
-
-
-
-/* ------------------------ */
-
 
 /* The see more section */
 
@@ -373,6 +362,8 @@
 
 /* -------------------------------- */
 
+/* The images showcased in the photography section */
+
 .img-list{
   display: flex;
   flex-direction: row;
@@ -394,6 +385,10 @@
     padding-top: 3rem;
   }
 }
+
+/* ------------------------------ */
+
+
 
 .frame-magazines-cover{
   display: flex;
