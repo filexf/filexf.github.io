@@ -44,14 +44,14 @@
 
 /* ------------Essais ----------- */
 
-.frame-landingpage > img{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
+
 
 .frame-landingpage{
-  img{
+
+  .photo-landing-page{
+    display: flex;
+    justify-content: center;
+    width: 1600px;
     position: relative;
   }
   .frame-title-text{
@@ -59,29 +59,30 @@
     z-index: 1;
     margin-left: 140px;
     margin-top: 30px;
-    /* inset: 0; */
   }
 
   .vector-arrow{
     position: absolute;
+    display: flex;
     justify-content: center;
-    /* z-index: 1; */
-    width: 80px;
-    align-items: flex-end;
-    margin-top: 730px;
+    align-items: center;
+    bottom: 45px;
     color: #FFF;
   }
 }
 
+/* This is for animating the arrow blinking and also its size */
 .blinking-arrow{
-  animation: blinker 3s linear infinite;
-}
+  animation: blinker 3s ease-in-out infinite;
+  width: 80px;
 
+}
 @keyframes blinker {
   50% {
     opacity: 0;
   }
 }
+
 
 
 /* --------------------- */
@@ -286,7 +287,8 @@
   display: flex;
   width: 900.294px;
   height: 476.15px;
-  padding: 198.396px 408.128px;
+  object-fit: cover;
+  /* padding: 198.396px 408.128px; */
   justify-content: center;
   align-items: center;
   gap: 11.337px;
@@ -295,6 +297,46 @@
   border-radius: 56.684px;
   border: 5.668px solid #000;
   box-shadow: 0px 4.535px 4.535px 0px rgba(0, 0, 0, 0.25);
+}
+
+.animation-carrousel{
+  position: relative;
+  width: 1024px;
+  height: 500px;
+  gap: 30px;
+  .image-animated{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    inset: 0;
+    opacity: 1;
+  }
+
+  p{
+    /* z-index: 1; */
+    position: absolute;
+  }
+
+  .sportify-animation{
+    opacity: 1;
+
+  }
+
+  .tymouet-animation{
+    /* display: none; */
+    /* transition: animation 10s ease-in-out infinite; */
+  }
+
+}
+
+
+.tymouet-animation{
+  animation: fadeIn 4s ease-in-out infinite alternate;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
 }
 
 /* The tech stack icons part ??? */
