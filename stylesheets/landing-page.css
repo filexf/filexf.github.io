@@ -1,7 +1,7 @@
 /* Main 1st frame  */
 
 .frame-landingpage{
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,6 +12,7 @@
 
 .frame-title-text{
   display: flex;
+  justify-content: center;
   padding-left: 20px;
   align-items: flex-start;
   gap: 238.811px;
@@ -25,7 +26,7 @@
   width: 536px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 22px;
+  gap: 16px;
 }
 
 
@@ -33,135 +34,57 @@
   align-self: stretch;
   color: #000;
   font-family: Raleway;
-  font-size: 38.99px;
+  font-size: 39px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.097);
+
 }
 
-/* Frame on the right */
+/* ------------Essais ----------- */
 
-.intro-text{
+.frame-landingpage > img{
   display: flex;
-  width: 537.082px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 31.192px;
-}
-
-.text{
-  height: 119.803px;
-  align-self: stretch;
-  color: #000;
-  font-family: Raleway;
-  font-size: 32.489px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
-
-.list-buttons{
-  display: flex;
-  width: 519px;
   justify-content: center;
-  align-items: center;
-  gap: 55px;
-}
-
-.button {
-  display: flex;
-  width: 138.471px;
-  height: 46.157px;
-  justify-content: center;
-  align-items: center;
-  gap: 3.663px;
-  flex-shrink: 0;
-
-  border-radius: 18.316px;
-  border: 2.198px solid #000;
-  background: #07080A;
-  box-shadow: 0px 2.84px 2.84px 0px rgba(0, 0, 0, 0.25);
-  p{
-    color: #FFF;
-    font-family: Raleway;
-    font-size: 22.211px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-  }
-}
-
-/* 2nd frame of the main frame */
-
-.frame-photos-icons{
-  display: flex;
-  align-items: center;
   width: 100%;
-  flex-direction: column;
-  gap: 18px;
 }
 
-/* The hovering landscape photos */
-.hovering-photo-landing-page{
-  display: flex;
-  width: 1312px;
-  height: 135px;
-  padding-right: 0.065px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 30px;
+.frame-landingpage{
   img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: 50% 49%;
+    position: relative;
+  }
+  .frame-title-text{
+    position: absolute;
+    z-index: 1;
+    margin-left: 140px;
+    margin-top: 30px;
+    /* inset: 0; */
   }
 
+  .vector-arrow{
+    position: absolute;
+    justify-content: center;
+    /* z-index: 1; */
+    width: 80px;
+    align-items: flex-end;
+    margin-top: 730px;
+    color: #FFF;
+  }
 }
 
-.frame-photo-and-icons{
-  display: flex;
-  width: 1312px;
-  justify-content: space-between;
-  align-items: center;
+.blinking-arrow{
+  animation: blinker 3s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
 
 
-/* Frame for the 2 icons */
-.frame-icons-landing-page{
-  display: flex;
-  width: 265px;
-  padding: 0px 13.473px;
-  justify-content: center;
-  align-items: center;
-  gap: 20.012px;
-  flex-shrink: 0;
-}
-
-
-.icon-landing-page{
-  display: flex;
-  padding: 14.525px;
-  /* align-items: center; */
-  gap: 4.484px;
-  flex-shrink: 0;
-  border-radius: 50%;
-  border: 5.381px solid #000;
-  background: rgba(217, 217, 217, 0.00);
-}
-
-/* The photo with icons on the left */
-.photo-with-icons{
-  display: flex;
-  width: 1047px;
-  height: 130px;
-  padding-right: 0.052px;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-  border-radius: 30px;
-
-}
+/* --------------------- */
 
 /* The 2nd frame my latest works */
 
