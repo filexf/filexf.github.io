@@ -3,7 +3,7 @@
 /* These are the main files that are gonna be used for all the pages */
 
 /* This one is for various things such as resizing the css properties, effects etc.. */
-@import url(style.css);
+@import url(stylesheets/style.css);
 
 /* File for fonts */
 @import url(font-styles.css);
@@ -12,7 +12,7 @@
 @import url(navbar.css);
 
 /* The landing page / index */
-@import url(landing-page.css);
+@import url(stylesheets/landing-page.css);
 
 /* The 3 main pages : Apps, photos, books */
 @import url(applications-page.css);
