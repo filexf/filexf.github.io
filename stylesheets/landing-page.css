@@ -23,7 +23,6 @@
 
 .name-profession{
   display: flex;
-  width: 536px;
   flex-direction: column;
   align-items: flex-start;
   gap: 16px;
@@ -34,7 +33,7 @@
   align-self: stretch;
   color: #000;
   font-family: Raleway;
-  font-size: 39px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -98,7 +97,7 @@
 .frame-my-latest-works{
   margin-top: 3rem;
   display: flex;
-  width: 1320px;
+  width: 90%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -110,18 +109,17 @@
   color: #000;
   text-align: center;
   font-family: Raleway;
-  font-size: 60px;
+  font-size: 3.75em;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
 }
 
 .font-text-latest-works{
-  width: 1094px;
-  height: 96px;
   color: #000;
   font-family: Raleway;
   font-size: 24.498px;
+  padding: 50px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -129,15 +127,16 @@
 
 .frame-cards-latest-works{
   display: flex;
-  height: 575px;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* height: 575px; */
   align-items: center;
-  gap: 128px;
+  gap: 48px;
 }
 
 .card-latest-works{
   display: flex;
-  width: 332.362px;
-  padding: 31.44px 55.394px;
+  padding: 2rem 3.5rem;
   flex-direction: column;
   align-items: center;
   gap: 31.44px;
@@ -236,8 +235,8 @@
 .layout-all-frames{
   margin-top: 5rem;
   display: flex;
-  width: 1312px;
   flex-direction: column;
+  width: 100%;
   align-items: flex-start;
   gap: 80px;
   padding: 0 20px;
@@ -255,6 +254,7 @@
 
 .frames-layouts-landing-page{
   display: flex;
+  justify-content: center;
   align-items: flex-start;
   gap: 35px;
   align-self: stretch;
@@ -292,8 +292,9 @@
 
 .img-web-dev{
   display: flex;
-  width: 900.294px;
-  height: 476.15px;
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  /* height: 476.15px; */
   object-fit: cover;
   /* padding: 198.396px 408.128px; */
   justify-content: center;
@@ -308,7 +309,7 @@
 
 .animation-carrousel{
   position: relative;
-  width: 1024px;
+  width: 80%;
   height: 500px;
   gap: 30px;
 
@@ -368,7 +369,7 @@
   display: flex;
   flex-direction: row;
   gap: 30px;
-  width: 1087px;
+  width: 100%;
   height: 408px;
   flex-shrink: 0;
   img{
@@ -397,8 +398,8 @@
   overflow: hidden;
   img{
     display: flex;
-    width: 491.719px;
-    height: 695.456px;
+    width: 100%;
+    /* height: 695.456px; */
     padding-right: 0.399px;
     flex-direction: column;
     justify-content: center;

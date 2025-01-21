@@ -1,19 +1,19 @@
 .frame-header-photos-page {
   margin-top: 30px;
   display: flex;
-  width: 1267px;
   flex-direction: column;
   align-items: center;
   gap: 50px;
+  padding: 30px;
 }
 
 .frame-page-photos{
   display: flex;
   justify-content: center;
   align-items: center;
-  align-content: center;
-  gap: 72px;
-  align-self: stretch;
+  /* align-content: center; */
+  gap: 90px;
+  /* align-self: stretch; */
   flex-wrap: wrap;
 
 }
