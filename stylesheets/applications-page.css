@@ -1,9 +1,10 @@
 .frame-header-applications-page {
   margin-top: 30px;
   display: flex;
-  width: 1267px;
+  width: 90%;
   flex-direction: column;
   align-items: center;
+  padding: 0 3rem;
   gap: 50px;
 }
 
@@ -17,10 +18,10 @@
 .frame-application{
   display: flex;
   position: relative;
-  width: 1000.419px;
+  aspect-ratio: 16/9;
+  width: 100%;
   height: 446.755px;
   object-fit: cover;
-  /* padding: 227.815px 468.647px; */
   justify-content: center;
   overflow: hidden;
   align-items: center;
@@ -108,7 +109,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1159px;
+  width: 100%;
   flex-direction: column;
   gap: 48px;
 
@@ -125,7 +126,7 @@
 
 .frame-icons-tech-stack{
   display: flex;
-  width: 733.02px;
+  width: 60%;
   justify-content: center;
   align-items: center;
 
