@@ -5,14 +5,19 @@
   flex-direction: column;
   align-items: center;
   gap: 50px;
+  /* padding: 5rem; */
+
 }
 
 .frame-magazine-and-text{
   display: flex;
-  height: 630px;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* height: 630px; */
   align-items: center;
   gap: 64px;
   align-self: stretch;
+  /* padding: 5rem; */
   h2{
     color: #000;
     text-align: center;
@@ -35,7 +40,6 @@
 
 .frame-texts-magazine{
   display: flex;
-  height: 630px;
   flex-direction: column;
   align-items: center;
   gap: 72px;
@@ -48,7 +52,7 @@
   position:relative;
   .main-photo-magazine{
     width: 438.662px;
-    height: 629.786px;
+    /* height: 629.786px; */
     object-fit: cover;
     transition: all 0.3s;
   }
