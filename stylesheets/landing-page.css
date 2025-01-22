@@ -44,7 +44,6 @@
   .profession{
     font-size: 1.8rem;
   }
-
 }
 
 
@@ -480,5 +479,13 @@
   /* box-shadow: 0px 4.607px 4.607px 0px rgba(0, 0, 0, 0.25); */
   font-size: 20px;
   margin-right: 20px;
+}
 
+@media (max-width: 1150px) {
+  .frame-inputs{
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
