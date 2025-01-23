@@ -1,11 +1,14 @@
 .frame-header-photos-sections-page {
   margin-top: 30px;
   display: flex;
-  width: 100%;
+  width: 90%;
   flex-direction: column;
   align-items: center;
   gap: 50px;
   padding: 0 5rem;
+  p{
+    width: 90%;
+  }
 }
 
 .photos-grid{
