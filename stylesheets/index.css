@@ -26,3 +26,6 @@
 
 /* The lightbox css properties */
 @import url(lightbox.css);
+
+/* The footer file  */
+@import url(footer.css);
