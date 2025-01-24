@@ -82,8 +82,40 @@
   gap: 25px;
 }
 
-.dropdown-menu{
-  width: 35.475px;
-  height: 22.336px;
-  flex-shrink: 0;
+
+.checkbtn {
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-mobile {
+  display: none;
+}
+
+#check:checked ~ .nav-mobile {
+  display: block;
+}
+
+.nav-mobile {
+  position: absolute;
+  top: 99.9%;
+  right: 7.5%;
+  background: #232425;
+  z-index: 1;
+  width: 200px;
+}
+.nav-mobile a {
+  color: #fff;
+  padding: 1rem 1.5rem;
+  display: block;
+  display: flex;
+  justify-content: center;
+  font-family: raleway;
+  font-weight: 800;
+}
+.nav-mobile a:hover{
+  transform: scale(1.01);
+  transition: 0.2s ease-in-out;
+  color: #b2b2b3;
 }

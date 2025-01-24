@@ -25,8 +25,8 @@
   overflow: hidden;
   position:relative;
   .main-photo{
-    height: 730.218px;
-    width: 422.358px;
+    height: 700px;
+    width: 100%;
     object-fit: cover;
     transition: all 0.3s;
   }
