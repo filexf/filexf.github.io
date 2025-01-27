@@ -12,7 +12,7 @@
 .frame-magazine-and-text{
   display: flex;
   justify-content: center;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   /* height: 630px; */
   align-items: center;
   gap: 64px;
@@ -31,13 +31,15 @@
   }
 }
 
-@media (max-width: 900px){
+@media (max-width: 1050px){
   .wrap-civilisation{
     flex-wrap: wrap-reverse;
   }
   .wrap-wizzy-en-asie{
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
   }
+
 }
 
 /* .magazine-dimensions{
@@ -49,7 +51,7 @@
 
 .frame-texts-magazine{
   display: flex;
-  width: 50%;
+  /* width: 50%; */
   flex-direction: column;
   align-items: center;
   gap: 72px;
